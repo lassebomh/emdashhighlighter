@@ -3,7 +3,7 @@
   "name": "Em dash highlighter",
   "version": "0.0.1",
   "manifest_version": 3,
-  "description": "It does what it says on the tin.",
+  "description": "Highlight em dashes like a pro.",
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
@@ -13,5 +13,14 @@
   ],
   "icons": {
     "48": "icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@emdashhighlighter",
+      "strict_min_version": "58.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
   }
 }
