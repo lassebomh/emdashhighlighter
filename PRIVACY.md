@@ -1,0 +1,1 @@
+This browser extension not collect, store, transmit, or sell any personal information or browsing data. It do not use cookies or any third-party analytics. Your data stays exactly where it belongs—on your own device.
